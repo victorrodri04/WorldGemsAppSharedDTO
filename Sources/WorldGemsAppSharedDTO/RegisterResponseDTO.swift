@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct RegisterResponseDTO: Decodable {
+public struct RegisterResponseDTO: Codable {
   public let error: Bool
   public let reason: String?
   
